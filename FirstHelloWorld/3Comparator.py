@@ -45,9 +45,9 @@ elif num1 >= num2:
     print('Num1 greater than or equal num2')
 elif num1 == 10:
     print('num1 equals to 10')
-elif num1 < num2:
-    #This condition is the only one that will trigger
-    print('num1 is less than num2')
+elif num1 + num2 == 3:
+    # This condition is the only one that will trigger
+    print('num1+num2 = 3')
 else:
     print('num1 does not trigger any other condition.')
 
